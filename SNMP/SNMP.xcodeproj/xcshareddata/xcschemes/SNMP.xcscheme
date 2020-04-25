@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DC632DA2236F052A000B8186"
                BuildableName = "SNMP.framework"
                BlueprintName = "SNMP"
-               ReferencedContainer = "container:SNMP/SNMP.xcodeproj">
+               ReferencedContainer = "container:SNMP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "DC632DAA236F052A000B8186"
                BuildableName = "SNMPTests.xctest"
                BlueprintName = "SNMPTests"
-               ReferencedContainer = "container:SNMP/SNMP.xcodeproj">
+               ReferencedContainer = "container:SNMP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
                BlueprintIdentifier = "DC632DAA236F052A000B8186"
                BuildableName = "SNMPTests.xctest"
                BlueprintName = "SNMPTests"
-               ReferencedContainer = "container:SNMP/SNMP.xcodeproj">
+               ReferencedContainer = "container:SNMP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "DC632DA2236F052A000B8186"
             BuildableName = "SNMP.framework"
             BlueprintName = "SNMP"
-            ReferencedContainer = "container:SNMP/SNMP.xcodeproj">
+            ReferencedContainer = "container:SNMP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

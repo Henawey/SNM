@@ -58,7 +58,7 @@
 		DC89452F232E90EC006A19A4 /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		DC894530232E90EC006A19A4 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Protocols/Response.swift; sourceTree = "<group>"; };
 		DC894531232E90EC006A19A4 /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
-		DCBEE4BD2454881D0067E2D2 /* AnyNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNetworkProvider.swift; sourceTree = "<group>"; };
+		DCBEE4BD2454881D0067E2D2 /* AnyNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyNetworkProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,13 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBEE4BE2454881D0067E2D2 /* AnyNetworkProvider.swift in Sources */,
 				DC632DBA236F0549000B8186 /* APIProvider.swift in Sources */,
 				DC632DBB236F0549000B8186 /* Response.swift in Sources */,
 				DC632DBC236F0549000B8186 /* NetworkError.swift in Sources */,
 				DC632DBD236F0549000B8186 /* TargetSpecification.swift in Sources */,
 				DC632DBE236F0549000B8186 /* NetworkProvider.swift in Sources */,
 				DC632DBF236F0549000B8186 /* RequestHandler.swift in Sources */,
-				DCBEE4BE2454881D0067E2D2 /* AnyNetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
