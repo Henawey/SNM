@@ -23,8 +23,8 @@
 		DC632DC5236F0583000B8186 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7FD81E236A23D10071598E /* Extensions.swift */; };
 		DC632DC6236F0583000B8186 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7FD820236A23FC0071598E /* MockURLSession.swift */; };
 		DC632DC7236F0583000B8186 /* MockURLSessionConfiguration .swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7FD822236A25FA0071598E /* MockURLSessionConfiguration .swift */; };
-		DC632DC8236F0583000B8186 /* APIProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC894524232E9074006A19A4 /* APIProviderTests.swift */; };
 		DCBEE4BE2454881D0067E2D2 /* AnyNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEE4BD2454881D0067E2D2 /* AnyNetworkProvider.swift */; };
+		DCDD4F1E2454E00700D4AF10 /* APIProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD4F1C2454DFF100D4AF10 /* APIProviderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		DC632DA6236F052A000B8186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC632DAB236F052A000B8186 /* SNMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC632DB2236F052A000B8186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		DC7FD7CF23660A950071598E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DC7FD7CF23660A950071598E /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		DC7FD816236A231E0071598E /* MockSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpecification.swift; sourceTree = "<group>"; };
 		DC7FD818236A23430071598E /* MockCancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCancellable.swift; sourceTree = "<group>"; };
 		DC7FD81A236A23790071598E /* MockRequestHandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestHandlerConfiguration.swift; sourceTree = "<group>"; };
@@ -52,13 +52,13 @@
 		DC7FD81E236A23D10071598E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DC7FD820236A23FC0071598E /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		DC7FD822236A25FA0071598E /* MockURLSessionConfiguration .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockURLSessionConfiguration .swift"; sourceTree = "<group>"; };
-		DC894524232E9074006A19A4 /* APIProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProviderTests.swift; sourceTree = "<group>"; };
 		DC89452D232E90EC006A19A4 /* TargetSpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetSpecification.swift; sourceTree = "<group>"; };
 		DC89452E232E90EC006A19A4 /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		DC89452F232E90EC006A19A4 /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		DC894530232E90EC006A19A4 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Protocols/Response.swift; sourceTree = "<group>"; };
 		DC894531232E90EC006A19A4 /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		DCBEE4BD2454881D0067E2D2 /* AnyNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyNetworkProvider.swift; sourceTree = "<group>"; };
+		DCDD4F1C2454DFF100D4AF10 /* APIProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProviderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 			children = (
 				DC5A1A792365EEA200FDC493 /* Supporting Files */,
 				DC89453C232E914A006A19A4 /* Helpers */,
-				DC894524232E9074006A19A4 /* APIProviderTests.swift */,
+				DCDD4F1C2454DFF100D4AF10 /* APIProviderTests.swift */,
 			);
 			path = SNMTests;
 			sourceTree = "<group>";
@@ -293,8 +293,8 @@
 				DC632DC4236F0583000B8186 /* MockRequestHandler.swift in Sources */,
 				DC632DC5236F0583000B8186 /* Extensions.swift in Sources */,
 				DC632DC6236F0583000B8186 /* MockURLSession.swift in Sources */,
+				DCDD4F1E2454E00700D4AF10 /* APIProviderTests.swift in Sources */,
 				DC632DC7236F0583000B8186 /* MockURLSessionConfiguration .swift in Sources */,
-				DC632DC8236F0583000B8186 /* APIProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

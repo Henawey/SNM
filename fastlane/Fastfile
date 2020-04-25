@@ -3,16 +3,12 @@ update_fastlane
 default_platform(:ios)
 
 platform :ios do
-<<<<<<< HEAD
-  desc "Description of what the lane does"
-=======
   before_all do
     setup_circle_ci
     setup_travis
   end
 
   desc "unit tests"
->>>>>>> 4553f42... add travis
   lane :tests do
     run_tests(workspace: "SNM.xcworkspace",
       clean: true,
