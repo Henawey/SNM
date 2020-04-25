@@ -1,6 +1,6 @@
 //
 //  NetworkError.swift
-//  Networking
+//  SNM
 //
 //  Created by Ahmed Henawey on 10/27/19.
 //  Copyright © 2019 Henawey. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  MockCancellable.swift
-//  NetworkingTests
+//  SNMTests
 //
 //  Created by Ahmed Henawey on 10/30/19.
 //  Copyright © 2019 Henawey. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 import class XCTest.XCTestExpectation
-@testable import SNMP
+@testable import SNM
 
 struct MockCancellable: Cancellable {
     

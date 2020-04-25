@@ -1,13 +1,13 @@
 //
 //  MockSpecification.swift
-//  NetworkingTests
+//  SNMTests
 //
 //  Created by Ahmed Henawey on 10/30/19.
 //  Copyright © 2019 Henawey. All rights reserved.
 //
 
 import Foundation
-@testable import SNMP
+@testable import SNM
 
 struct MockSpecification: TargetSpecification {
     

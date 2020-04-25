@@ -1,13 +1,13 @@
 //
 //  Extensions.swift
-//  NetworkingTests
+//  SNMTests
 //
 //  Created by Ahmed Henawey on 10/30/19.
 //  Copyright © 2019 Henawey. All rights reserved.
 //
 
 import Foundation
-@testable import SNMP
+@testable import SNM
 
 extension NetworkError: Equatable {
     public static func == (lhs: NetworkError, rhs: NetworkError) -> Bool {

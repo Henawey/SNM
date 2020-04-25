@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC632DA2236F052A000B8186"
-               BuildableName = "SNMP.framework"
-               BlueprintName = "SNMP"
-               ReferencedContainer = "container:SNMP.xcodeproj">
+               BuildableName = "SNM.framework"
+               BlueprintName = "SNM"
+               ReferencedContainer = "container:SNM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC632DAA236F052A000B8186"
-               BuildableName = "SNMPTests.xctest"
-               BlueprintName = "SNMPTests"
-               ReferencedContainer = "container:SNMP.xcodeproj">
+               BuildableName = "SNMTests.xctest"
+               BlueprintName = "SNMTests"
+               ReferencedContainer = "container:SNM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC632DAA236F052A000B8186"
-               BuildableName = "SNMPTests.xctest"
-               BlueprintName = "SNMPTests"
-               ReferencedContainer = "container:SNMP.xcodeproj">
+               BuildableName = "SNMTests.xctest"
+               BlueprintName = "SNMTests"
+               ReferencedContainer = "container:SNM.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC632DA2236F052A000B8186"
-            BuildableName = "SNMP.framework"
-            BlueprintName = "SNMP"
-            ReferencedContainer = "container:SNMP.xcodeproj">
+            BuildableName = "SNM.framework"
+            BlueprintName = "SNM"
+            ReferencedContainer = "container:SNM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
