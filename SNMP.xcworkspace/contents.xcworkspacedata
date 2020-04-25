@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Demo/Demo/Demo.xcodeproj">
+      location = "group:Demo/Demo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/henawey/Desktop/SNMP/SNMP/SNMP.xcodeproj">
+      location = "group:SNMP/SNMP.xcodeproj">
    </FileRef>
 </Workspace>

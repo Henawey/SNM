@@ -91,8 +91,8 @@
 		DC8944EF232E9008006A19A4 = {
 			isa = PBXGroup;
 			children = (
-				DC8944FB232E9008006A19A4 /* Networking */,
-				DC894506232E9008006A19A4 /* NetworkingTests */,
+				DC8944FB232E9008006A19A4 /* SNMP */,
+				DC894506232E9008006A19A4 /* SNMPTests */,
 				DC8944FA232E9008006A19A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC8944FB232E9008006A19A4 /* Networking */ = {
+		DC8944FB232E9008006A19A4 /* SNMP */ = {
 			isa = PBXGroup;
 			children = (
 				DCBEE4BD2454881D0067E2D2 /* AnyNetworkProvider.swift */,
@@ -116,17 +116,17 @@
 				DC89452C232E90EC006A19A4 /* Protocols */,
 				DC89452B232E90C9006A19A4 /* Supporting Files */,
 			);
-			path = Networking;
+			path = SNMP;
 			sourceTree = "<group>";
 		};
-		DC894506232E9008006A19A4 /* NetworkingTests */ = {
+		DC894506232E9008006A19A4 /* SNMPTests */ = {
 			isa = PBXGroup;
 			children = (
 				DC5A1A792365EEA200FDC493 /* Supporting Files */,
 				DC89453C232E914A006A19A4 /* Helpers */,
 				DC894524232E9074006A19A4 /* APIProviderTests.swift */,
 			);
-			path = NetworkingTests;
+			path = SNMPTests;
 			sourceTree = "<group>";
 		};
 		DC89452B232E90C9006A19A4 /* Supporting Files */ = {
@@ -385,7 +385,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Networking/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SNMP/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,7 +394,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.Networking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.SNMP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -414,7 +414,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Networking/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SNMP/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -422,7 +422,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.Networking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.SNMP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -444,7 +444,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NetworkingTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SNMPTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,7 +452,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.NetworkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.SNMPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -467,14 +467,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TKR2JQH63;
-				INFOPLIST_FILE = "NetworkingTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SNMPTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.NetworkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henawey.SNMPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
