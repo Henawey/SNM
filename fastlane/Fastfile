@@ -9,5 +9,8 @@ platform :ios do
       devices: ["iPhone X", "iPad (5th generation)"],
       scheme: "SNM",
       code_coverage: true)
+    codecov_reporter(
+      token: ENV["CODECOV_TOKEN"]
+    )
   end
 end
