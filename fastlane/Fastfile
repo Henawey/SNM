@@ -3,7 +3,11 @@ update_fastlane
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
+  before_all do
+    setup_circle_ci
+  end
+
+  desc "unit tests"
   lane :tests do
     run_tests(workspace: "SNM.xcworkspace",
       devices: ["iPhone X", "iPad (5th generation)"],
