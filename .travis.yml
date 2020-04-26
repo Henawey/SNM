@@ -1,0 +1,12 @@
+language:
+- swift
+osx_image: xcode11.3
+install:
+- bundle install
+script:
+- bundle exec fastlane ios tests
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+env:
+  global:
+    secure: qozcAtPw2gRkoSnk50jTGog9Hy05stgVsa2o17dA6GY16OpkwonMluh+7dlEvKHqrYQS6jr9p8ubIxLW7iCuUjYq7d2P6awauj7xocob5rKZvdUoGPOrGqk7PGw1y4PuhB/HcKPd0lAb0WN9IogA2he24RkkOEY+cK2n4SDyo9pa+584LFS2pkOXg3WCGjGenoc3ooj5RnafiIq76QjehDhSSVgi/kfJlM4/izPkS+lsRIg0dmgYVMvcDM6+EEtq3ZF0IFi3PQRJnXfMoO1q9jHDsJtNLOdng0miyf8/xTUkCWrvwNX7HMNIsfmnvUE3KS+OvS0ezg+UfJHSnbFGXdMjeABmwWkslZ6OQlg+WAATLWR0NagpOrwuZNRNTPoc+BFnsxOHEgUxpuOIebiDe/Gf7FiYj1mIvCO4lAHdgUHuBtQsWzE9XLn0PoOpMaYJKNai/e8DOTM1IhJfdB7j3UJH0Oj4VMnbjf8kNXC3O/RGLVfvK2vpcP/AwZP/8eRJRWo43VNDPjAkRKiNhJq/zPYVacQAijtb/6B8iDaFyjIdfEOCQ+6StN3J71tKpYvC/iBIF6P9uOFoVh+8MYEnKAbo07i0aaS5j5DD7Q/VnJX2bZjiCJcISYRGFZFoRYS9Mnj278N+9o7XSxuHVtsIudzdQR2sZjv/dWnvmvh/L/I=
